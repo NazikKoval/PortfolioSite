@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+   <img src="images/Groupwe.jpg" alt="" class="image22 flipInY wow">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto text-left fadeIn wow"> <a class="nav-item nav-link aNav" href="#">HOME</a> <a class="nav-item nav-link aNav" href="#" name="about" onClick="goTo(this)">ABOUT</a> <a class="nav-item nav-link aNav" href="#" name="wIdo" onClick="goTo(this)">SKILLS</a>
+                <a class="nav-item nav-link aNav" href="#" name="portfolio" onClick="goTo(this)">PORTFOLIO</a> <a class="nav-item nav-link aNav" href="#" name="contact" onClick="goTo(this)">CONTACT ME</a> </div>
+        </div>
+    </nav>
+    <div class="container header">
+        <div class="row">
+            <div class="col colRight"> <img src="images/sideborder.png" alt="" class="image fadeInLeft wow">
+                <h1 class="name fadeInDown wow">NAZAR KOVAL</h1>
+                <p class="front fadeIn wow">Front-end developer</p>
+                <div class="buttons">
+                    <button class="button hireMeBtn  fadeInUp wow" name="contact" onClick="goTo(this)">HIRE ME</button>
+                    <button class="button expMoreBtn  fadeInUp wow" name="about" onClick="goTo(this)">EXPLORE MORE</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-pull-6 col-xs-12 colLeft "> <img src="images/My-min_photo-resizer.ru.png" alt="" class="myPhoto fadeInRight wow"> </div>
+        </div>
+    </div>
+    <div class="aboutMe">
+        <h2 class="about zoomIn wow">ABOUT</h2> <img src="images/span.jpg" alt="">
+        <p class="text fadeInLeft wow">Hello! I'm Nazar, a front-end developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch. lorem</p>
+        
+        
+        <a href="doc/Nazar Koval CV Front end.docx" download><button class="button downBtn fadeInUp wow" name="grey">DOWNLOAD MY CV</button></a>
+        
+    </div>
+    <div class="mySkills pulse wow"> <img src="images/img.jpg" alt="" class="imgHand zoomIn wow">
+        <div class="wIdo col-md-10 offset-md-1">
+            <h3 class="mySkillsH  fadeInRight wow">MY SKILLS <br><img src="images/span.jpg" alt="" class="span"> <img src="images/span2.jpg" alt="" class="span2"></h3>
+            <div class="row skRow fadeInLeft wow">
+                <div class="col">HTML/CSS</div>
+                <div class="col">JAVASCRIPT</div>
+                <div class="col">ANGULARJS</div>
+            </div>
+            <p class="mySkillsTxt fadeInRight wow"> <img src="images/monitor.jpg" alt="" class="monitor1">    <img src="images/monitor2.jpg" alt="" class="monitor2">
+                <br><span class="pSpan">Front-end</span>
+                <br><span class="pSpanSp">As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</span></p><br>
+        </div>
+    </div>
+    <div class="portfolio">
+        <h4 class="recent zoomIn wow">MY RECENT WORKS <br> <img src="images/span.jpg" alt=""></h4>
+        <div class="container">
+            <div class="row consa">
+                <div class="col fadeInLeft wow"><a href="https://github.com/NazikKoval/WeatherApp.git"><img src="images/im1.png" alt=""><br><span class="imgTxt">HTML/CSS</span></a></div>
+                <div class="col fadeInRight wow"><a href="https://github.com/NazikKoval/psd-to-html-css.git"><img src="images/imgs2.png" alt=""><br><span class="imgTxt">PURE JAVASCRIPT</span></a></div>
+                <div class="w-100"></div>
+                <div class="col fadeInLeft wow"><a href="https://github.com/NazikKoval/ToDoApp.git"><img src="images/img5.png" alt=""><br><span class="imgTxt">ANGULARJS</span> </a></div>
+                <div class="col fadeInRight wow">
+                    <a href="https://github.com/NazikKoval/PortfolioSite.git"><img src="images/img6.png" alt=""><br><span class="imgTxt">ANGULARJS</span></a>
+                </div>
+                <div class="w-100"></div>
+                <div class="col fadeInLeft animated display"><a href="https://github.com/NazikKoval/early-Javascript.git"><img src="images/imgkl4.png" alt=""><br><span class="imgTxt">THIS SITE</span></a></div>
+                <div class="col fadeInRight animated display2"></div>
+            </div>
+        </div>
+        <button class="button loadMore fadeInUp wow" onclick="loadMore()">LOAD MORE</button>
+    </div>
+  <div class="contact fadeInLeft wow ">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-sm-pull-4">
+     <a href="mailto:nazikkoval@gmail.com" class="footerLink1">nazikkoval@gmail.com</a>
+    </div>
+    <div class="col-sm-4 col-sm-pull-4">
+     <a href="https://github.com/NazikKoval"><img src="images/GitHub-Logo.png" alt="" class="footerLink2"></a> 
+    </div>
+    <div class="col-sm-4 col-sm-pull-4">
+      <a href="tel:+380980380918" class="footerLink3">+380 98 038-09-18</a>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/slide.js"></script>
+</html>

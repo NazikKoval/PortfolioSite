@@ -1,0 +1,477 @@
+.nav-item {
+    color: #212121;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: width .3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.nav-item:hover {
+    color: #212121;
+}
+
+.navbar-nav {
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 13pt;
+    padding-right: 145px;
+    padding-top: 30px;
+}
+
+.aNav {
+    margin-right: 15px;
+}
+
+.image {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -120px;
+    z-index: -3;
+}
+
+.image22 {
+    position: absolute;
+    right: 100px;
+    z-index: -1;
+}
+
+.name {
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 34pt;
+    margin-top: 215px;
+    color: #212121;
+}
+
+.front {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 16pt;
+    color: #373737;
+    margin-top: -20px;
+}
+
+.myPhoto {
+    top: -20px;
+    width: 300px;
+}
+
+.hireMeBtn,
+.expMoreBtn {
+    width: 145px;
+    height: 50px;
+    background: #212121;
+    color: white;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    border: 1px solid #212121;
+    transition: 0.3s;
+}
+
+.expMoreBtn {
+    width: 173px;
+    background: white;
+    color: #373737;
+}
+
+.expMoreBtn:hover {
+    background: #212121;
+    color: white;
+}
+
+.hireMeBtn:hover {
+    background: white;
+    color: #373737;
+}
+
+.aboutMe {
+    height: 450px;
+    margin-top: 320px;
+    text-align: center;
+}
+
+.about {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 26pt;
+    color: #212121;
+}
+
+.text {
+    margin: 15px auto;
+    width: 500px;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 14pt;
+    color: #212121;
+}
+
+.downBtn {
+    margin-top: 10px;
+    width: 208px;
+    height: 46px;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    background: #212121;
+    color: white;
+    border: 1px solid #212121;
+    transition: 0.3s;
+}
+
+.downBtn:hover {
+    background: white;
+    color: #373737;
+}
+
+.mySkills {
+    margin-top: 140px;
+    width: 100%;
+}
+
+.imgHand {
+    width: 100%;
+    z-index: -4;
+    -webkit-box-shadow: 0px -4px 68px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -4px 68px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -4px 68px -15px rgba(0, 0, 0, 0.75);
+}
+
+.wIdo {
+    height: 580px;
+    background: white;
+    margin: -220px auto;
+    -webkit-box-shadow: 0px 2px 75px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 2px 75px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 75px 0px rgba(0, 0, 0, 0.15);
+}
+
+.mySkillsH {
+    padding-top: 100px;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 26pt;
+    color: #212121;
+    text-align: center;
+}
+
+.mySkillsTxt {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+.pSpan {
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+.skRow {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 18pt;
+    background: #212121;
+    color: white;
+}
+
+.portfolio {
+    margin-top: 220px;
+    text-align: center;
+}
+
+.recent {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 26pt;
+    color: #212121;
+    margin-top: 350px;
+    text-align: center;
+}
+
+.consa {
+    text-align: center;
+}
+
+.consa .col {
+    padding-top: 20px;
+    width: 10px;
+}
+
+.consa .col img {
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 36px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 36px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 36px -6px rgba(0, 0, 0, 0.75);
+}
+
+.consa .col img:hover {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    z-index: -10;
+}
+
+.tooltiptext {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 26pt;
+    position: relative;
+    color: black;
+}
+
+.loadMore {
+    margin-top: 30px;
+    width: 208px;
+    height: 46px;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    background: white;
+    color: #373737;
+    border: 1px solid #212121;
+    transition: 0.3s;
+}
+
+.loadMore:hover {
+    color: white;
+    background: #212121;
+}
+
+.display,
+.display2 {
+    display: none;
+}
+
+.contact {
+    margin-top: 150px;
+    height: 100px;
+    background: #212121;
+    -webkit-box-shadow: 0px -4px 68px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -4px 68px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -4px 68px -15px rgba(0, 0, 0, 0.75);
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.footerLink2 {
+    width: 110px;
+    margin-top: 35px;
+}
+
+.col > a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerLink1,
+.footerLink3 {
+    color: white;
+    position: relative;
+    top: 38px;
+    font-size: 14px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.footerLink1:hover,
+.footerLink3:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 29px -9px rgba(0, 0, 0, 0.75);
+}
+
+.monitor2 {
+    display: none;
+}
+
+.span2 {
+    display: none;
+}
+
+.imgTxt {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+@media (max-width: 992px) {
+    .myPhoto {
+        margin-left: -100px;
+    }
+    .navbar-nav {
+        padding-top: 0px;
+    }
+    .bg {
+        display: none;
+    }
+    .image2 {
+        display: none;
+    }
+    .myPhoto {
+        margin-top: 120px;
+        width: 100%;
+        text-align: center;
+    }
+    .image22 {
+        display: none;
+    }
+    .consa .col img {
+        width: 99%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        padding-top: 0px;
+    }
+    .bg {
+        display: none;
+    }
+    .image2 {
+        display: none;
+    }
+    .myPhoto {
+        margin-top: 30px;
+        width: 40%;
+        margin-left: auto;
+    }
+    .consa .col img {
+        width: 99%;
+    }
+    .imgHand {
+        display: none;
+    }
+    .mySkillsH {
+        color: white;
+        padding-top: 30px;
+    }
+    .skRow {
+        background: white;
+        color: #212121;
+    }
+    .wIdo {
+        height: auto;
+        width: 90%;
+        color: white;
+        background: #212121;
+    }
+    .monitor1 {
+        display: none;
+    }
+    .monitor2 {
+        margin: -20px auto;
+        display: block;
+    }
+    .span {
+        display: none;
+    }
+    .span2 {
+        display: block;
+        margin: 20px auto;
+    }
+    .aboutMe {
+        margin-top: 50px;
+    }
+    .header {
+        margin-top: -150px
+    }
+    .image {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        margin-top: 0px
+    }
+    .navbar-nav {
+        padding-top: 0px;
+    }
+    .name {
+        margin-top: 40px;
+    }
+    .image {
+        display: none;
+    }
+    .name {
+        text-align: center;
+    }
+    .front {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .myPhoto {
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 15%;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .hireMeBtn,
+    .expMoreBtn {
+        margin-top: 10px;
+    }
+    .aboutMe {
+        margin-top: 10px;
+    }
+    .text {
+        text-align: justify;
+        width: 80%;
+    }
+    .mySkillsTxt {
+        width: 80%;
+    }
+    .consa .col img {
+        width: 100%;
+    }
+    .imgHand {
+        display: none;
+    }
+    .footerLink1,
+    .footerLink3 {
+        top: 10px;
+        font-size: 12px;
+    }
+    .footerLink2 {
+        margin-top: 20px;
+        width: 70px;
+    }
+    .mySkillsH {
+        padding-top: 20px;
+    }
+    .wIdo {
+        height: auto;
+        width: 90%;
+    }
+    .portfolio {
+        margin-top: -300px;
+    }
+    .contact {
+        margin-top: 100px;
+    }
+    .mySkills {
+        margin-top: 300px;
+    }
+}
